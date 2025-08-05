@@ -10,3 +10,6 @@ arch:
 startup: services
 ports:
   8120/tcp: 8120
+docker_api: true
+full_access: true
+hassio_api: true
