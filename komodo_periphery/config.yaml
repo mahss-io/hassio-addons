@@ -1,11 +1,12 @@
-name: "Hello world"
-description: "My first real add-on!"
+name: "Komodo Periphery"
+description: "Used to remotly manage HA addons"
 version: "1.0.0"
-slug: "hello_world"
+slug: "komodo_periphery"
 init: false
 arch:
   - aarch64
   - amd64
-  - armhf
   - armv7
-  - i386
+startup: services
+ports:
+  8120/tcp: 8120

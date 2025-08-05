@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM ghcr.io/moghtech/komodo-periphery:latest as original_periphery
 
 # Copy data for add-on
 COPY run.sh /
